@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Mohamadreza/Desktop/DSA-project/header/bestpath.hpp
+stdio.h
+-
+iostream
+-
+limits.h
+-
+
+/mnt/c/Users/Mohamadreza/Desktop/DSA-project/src/bestpath.cpp
+../header/bestpath.hpp
+/mnt/c/Users/Mohamadreza/Desktop/DSA-project/header/bestpath.hpp
+
+/mnt/c/Users/Mohamadreza/Desktop/DSA-project/src/main.cpp
+iostream
+-
+../header/bestpath.hpp
+/mnt/c/Users/Mohamadreza/Desktop/DSA-project/header/bestpath.hpp
+
